@@ -39,7 +39,6 @@ const Main = () => {
         document.body.className = theme;
       }, [theme]);
 
-
     return (
     <>
         <div className='header'>
