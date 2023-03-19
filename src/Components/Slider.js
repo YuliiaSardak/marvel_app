@@ -18,6 +18,7 @@ export default () => {
     modules={[Navigation, Pagination, Autoplay, EffectFade]}
     slidesPerView={5}
     loop={true}
+    autoplay
     effect="fade"
     >
         <SwiperSlide>

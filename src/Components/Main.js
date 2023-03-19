@@ -25,7 +25,7 @@ const Main = () => {
     }
     
     const [theme, setTheme] = useState(
-        localStorage.getItem('theme') || 'light');
+        localStorage.getItem('theme'));
     const toggleTheme = () => {
         if (theme === 'light') {
           setTheme('dark');
