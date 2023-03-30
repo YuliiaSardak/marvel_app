@@ -250,7 +250,6 @@ p {
   text-decoration: none;
 }
 .footer__block svg:hover > .fill {
-  stroke: #F4F4F4;
   fill: #F4F4F4;
 }
 .footer__block svg:hover > .path {
